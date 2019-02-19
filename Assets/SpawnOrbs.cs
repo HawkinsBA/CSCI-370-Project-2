@@ -61,8 +61,6 @@ public class SpawnOrbs : MonoBehaviour
         int rand4 = rnd.Next(0, 7);
         orbs[2].transform.position = positions[rand4];
         positions.Remove(positions[rand4]);
-
-
     }
 
     // Update is called once per frame
